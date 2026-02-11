@@ -35,7 +35,7 @@ changes may become differing point releases.
 
 **All packages require a running I2P router.**
 
-**[Windows users should see the Easy-Install Bundle](https://i2pgit.org/i2p-hackers/i2p.firefox)**
+**[Windows users should see the Easy-Install Bundle](https://i2pgit.org/I2P_Developers/i2p.firefox)**
 
 ## Credits
 
