@@ -173,10 +173,10 @@ Linux(because the top command will be run and the script will exit).\n\nBoth det
     </target>
 
     <target name="arkenfoxUpdateUserJs">
-        <delete failonerror="false">
+        <!--<delete failonerror="false">
             <fileset dir="user.js" />
-        </delete>
-        <exec executable="git" osfamily="unix" failonerror="true">
+        </delete>-->
+        <exec executable="git" osfamily="unix" failonerror="false">
             <arg value="clone" />
             <arg value="https://github.com/arkenfox/user.js" />
         </exec>
