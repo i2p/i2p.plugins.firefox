@@ -15,7 +15,7 @@ github-release edit --user "${GITHUB_USER}" \
     --name "${GITHUB_NAME}" \
     --description "${GITHUB_DESCRIPTION}" \
     --tag "${GITHUB_TAG}"; true
-echo "Relase ${GITHUB_TAG} setup"
+echo "Release ${GITHUB_TAG} setup"
 tarsum=$(sha256sum i2p.plugins.firefox.tar.gz)
 github-release upload --user "${GITHUB_USER}" \
     --replace \
