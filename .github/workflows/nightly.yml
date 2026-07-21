@@ -13,6 +13,7 @@ jobs:
           sparse-checkout: |
             CHANGES.md
           sparse-checkout-cone-mode: false
+          fetch-depth: 0
       - name: sleep 15 minutes
         run: |
           echo "sleeping 15 minutes to wait for artifacts"
